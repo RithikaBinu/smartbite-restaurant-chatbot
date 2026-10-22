@@ -1,0 +1,14 @@
+# PyInstaller build outputs and binaries
+dist/
+build/
+*.spec
+*.exe
+
+# Python bytecode & virtual environments
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Local databases & model caches (optional to track, but ignore local sqlite journals)
+*.db-journal

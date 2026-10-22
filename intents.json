@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening", "anyone here", "start"
+      ]
+    },
+    {
+      "tag": "how_to_order",
+      "patterns": [
+        "how i order", "how to order", "how do i order", "help me order", "how does this work", "how can i buy food"
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "discount", "any discounts", "offers", "promotions", "promo code", "any deals today"
+      ]
+    },
+    {
+      "tag": "view_menu",
+      "patterns": [
+        "menu", "show menu", "food list", "what food do you have", "view items", "prices please", "what can i eat"
+      ]
+    },
+    {
+      "tag": "order_item",
+      "patterns": [
+        "i want a chicken burger", "give me two cokes", "add one beef burger",
+        "i would like french fries", "add cheese pizza to my cart", "can i get two iced teas",
+        "order 2 fries", "add to cart", "get me a coke", "two burgers please"
+      ]
+    },
+
+    {
+      "tag": "order_item",
+      "patterns": [
+        "2 cheese pizza",
+        "1 cheese pizza",
+        "cheese pizza",
+        "chicken burger",
+        "2 chicken burgers",
+        "coke",
+        "french fries",
+        "i want a chicken burger",
+        "give me two cokes",
+        "add one beef burger",
+        "i would like french fries",
+        "add cheese pizza to my cart",
+        "can i get two iced teas",
+        "order 2 fries",
+        "add to cart",
+        "get me a coke",
+        "two burgers please"
+      ]
+    },
+
+    {
+      "tag": "remove_item",
+      "patterns": [
+        "remove chicken burger", "delete coke", "cancel the fries",
+        "take out the cheese pizza", "clear cart", "remove fries"
+      ]
+    },
+    {
+      "tag": "view_cart",
+      "patterns": [
+        "cart", "view cart", "show my cart", "what is in my cart", "current total", "bill so far"
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "what do you recommend", "what is popular", "specials", "best seller", "what is good here"
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "delivery", "delivery time", "how long does delivery take", "when will it arrive", "delivery duration"
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "payment", "how to pay", "cash on delivery", "can i pay by card", "payment methods"
+      ]
+    },
+    {
+      "tag": "checkout",
+      "patterns": [
+        "checkout", "bill please", "pay now", "finish order", "confirm order", "place order"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "exit", "quit", "thank you bye", "see you later"
+      ]
+    }
+  ]
+}
